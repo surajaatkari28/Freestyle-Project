@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-02T12:45:52 IST" name="Default suite" finished-at="2026-02-02T12:46:02 IST" duration-ms="9535">
+    <groups>
+    </groups>
+    <test started-at="2026-02-02T12:45:52 IST" name="Default test" finished-at="2026-02-02T12:46:02 IST" duration-ms="9535">
+      <class name="testcases.Login_Testcase">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testcases.Login_Testcase@53d1b9b3]" started-at="2026-02-02T12:45:52 IST" name="beforeSuite" finished-at="2026-02-02T12:45:52 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcases.Login_Testcase@53d1b9b3]" started-at="2026-02-02T12:45:53 IST" name="setup" finished-at="2026-02-02T12:45:59 IST" duration-ms="6157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.Login_Testcase.login_testcase(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login_testcase(java.lang.String,java.lang.String)[pri:0, instance:testcases.Login_Testcase@53d1b9b3]" started-at="2026-02-02T12:45:59 IST" name="login_testcase" data-provider="loginData" finished-at="2026-02-02T12:46:01 IST" duration-ms="1705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_testcase -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Login_Testcase@53d1b9b3]" started-at="2026-02-02T12:46:01 IST" name="teardown" finished-at="2026-02-02T12:46:02 IST" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.Login_Testcase@53d1b9b3]" started-at="2026-02-02T12:46:02 IST" name="afterSuite" finished-at="2026-02-02T12:46:02 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.Login_Testcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

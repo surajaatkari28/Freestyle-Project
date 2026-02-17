@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+<Appenders>
+<console name="Console" target="SYSTEM_OUT">
+<PatternLayout pattern="%d{HH:mm:ss} [%p] %m%n"/>
+</console>
+<File name="FileLogger" fileName="./Logs/automatin.Log">
+<PatternLayout pattern="%d{ yyyy-MM-dd HH:mm:ss} [%p] %m%n"/>
+</File>
+</Appenders>
+
+<loggers>
+<Root level="info">
+<AppenderRef ref="Console"/>
+<AppenderRef ref="FileLogger"/>
+
+</Root>
+</loggers>
+</Configuration>
